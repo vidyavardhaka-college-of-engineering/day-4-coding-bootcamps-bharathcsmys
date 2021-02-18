@@ -14,6 +14,31 @@
 
 int main()
 {
+
+  int arr_a[5] , arr_b[5], i;
+   
+   printf("enter array elements \n");
+
+   for(i=0;i<5;i++){
+     scanf("%d",&arr_a[i]);
+   } 
+   
+    for(i=0;i<5;i++){
+     printf(" %d",arr_a[i]);
+   } 
+
+   for(i=0;i<5;i++){
+     
+     arr_b[i] = arr_a[i];
+   }
+   printf("\n");
+
+    for(i=0;i<5;i++){
+     printf(" %d",arr_b[i]);
+   } 
+
+
+
    //Declare all the variables[N, array a & array b, i] used in the code
    //Read the Value of N using scanf statement
    //Read the array elements using for loop and scanf statment
